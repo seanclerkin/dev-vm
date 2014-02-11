@@ -9,6 +9,6 @@ Vagrant.configure("2") do |config|
   config.vm.box_url = "http://puppet/repo1/centos62-msm.box"
   
   config.vm.provision :shell, :inline => "gem install open3_backport"
-  config.vm.provision :shell, :path => "init.sh", :args => "--role webserver --environment prod1 --site eu-west-1a --repouser seanclerkin --reponame dev-vm"
+  config.vm.provision :shell, :path => "init.sh", :args => "--role monitoring --environment prod1 --site eu-west-1a --repouser seanclerkin --reponame dev-vm"
 
 end

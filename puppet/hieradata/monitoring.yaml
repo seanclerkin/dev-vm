@@ -1,0 +1,7 @@
+classes:
+  - apache
+  - icinga2
+  - icinga2-classicui
+  - icinga2-icinga-web
+  - nagios-plugins
+  - nsca-ng
